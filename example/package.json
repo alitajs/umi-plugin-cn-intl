@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "umi dev",
+    "i18n": "umi cnintl src/pages/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "umi": "^2.6.12",
+    "umi-plugin-react": "^1.7.3"
+  }
+}
