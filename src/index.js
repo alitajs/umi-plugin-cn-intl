@@ -1,9 +1,10 @@
 // ref:
 // - https://umijs.org/plugin/develop.html
-const fs = require('fs');
-const path = require('path');
-const randomstring = require('randomstring');
+import fs from 'fs';
+import path from 'path';
+import randomstring from 'randomstring'
 import { findJS } from 'umi-utils';
+
 export default function (api, options) {
   const { paths } = api;
   api.registerCommand(

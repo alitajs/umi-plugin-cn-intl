@@ -17,6 +17,12 @@ export default {
 }
 ```
 
+```js
+"scripts": {
+  "i18n": "umi cnintl src/pages/test"
+},
+```
+
 ## Options
 
 TODO
